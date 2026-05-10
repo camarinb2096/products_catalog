@@ -137,8 +137,8 @@
   },
   "banner": {
     "enabled": true,
-    "image": "/products/banner-hoodies.jpg",
+    "image": "https://asset.cloudinary.com/dyuxbjpdm/7aa8a052f881d3e26dfa18ecd4f5c37c",
     "href": "",
-    "alt": "Banner promocional Core Hoodie"
+    "alt": "Banner"
   }
 }
