@@ -4,7 +4,7 @@
   "whatsapp": "573045491765",
   "product": {
     "reference": "CORE-HOODIE-001",
-    "name": "Closet del Pelao",
+    "name": "Rebook REF-001",
     "description": "Hoodie unisex de fit relajado, pensado como pieza base para drops de color. Edita esta informacion en products.json desde GitHub cuando quieras.",
     "details": [
       "Fit oversized",
@@ -55,8 +55,7 @@
         ],
         "stockLabel": "Disponible",
         "photos": [
-          "/products/core-hoodie-negro-1.jpg",
-          "/products/core-hoodie-negro-2.jpg"
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778377276/WhatsApp_Image_2026-05-01_at_21.49.07_jpcduf.jpg"
         ]
       },
       {
@@ -137,8 +136,12 @@
   },
   "banner": {
     "enabled": true,
-    "image": "https://asset.cloudinary.com/dyuxbjpdm/7aa8a052f881d3e26dfa18ecd4f5c37c",
+    "image": "https://res.cloudinary.com/dyuxbjpdm/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1778378802/banner-example_zqpkhl.jpg",
     "href": "",
-    "alt": "Banner"
+    "alt": "Banner promocional Core Hoodie"
+  },
+  "site": {
+    "eyebrow": "Bienvenidos al",
+    "title": "Closet del Pelao"
   }
 }

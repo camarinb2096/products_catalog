@@ -100,9 +100,9 @@ async function loadConfig() {
 }
 
 function renderProductBasics() {
-  const { brand, product } = state.config;
-  els.brandName.textContent = brand;
-  els.productName.textContent = product.name;
+  const { brand, product, site } = state.config;
+  els.brandName.textContent = site?.eyebrow || brand;
+  els.productName.textContent = site?.title || product.name;
   els.productReference.textContent = `Referencia ${product.reference}`;
   els.productTitle.textContent = product.name;
   els.productPrice.textContent = formatPrice(product.price);

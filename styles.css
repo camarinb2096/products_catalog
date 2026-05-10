@@ -103,14 +103,16 @@ h1 {
   display: block;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #e9e6dc;
+  background: #f0eee8;
   overflow: hidden;
 }
 
 .promo-banner img {
   width: 100%;
-  aspect-ratio: 16 / 4.2;
-  object-fit: cover;
+  height: clamp(180px, 24vw, 360px);
+  object-fit: contain;
+  object-position: center;
+  background: #f0eee8;
 }
 
 .product-stage {
@@ -130,14 +132,18 @@ h1 {
 
 .main-photo-wrap {
   position: relative;
-  aspect-ratio: 4 / 5;
-  background: #e9e6dc;
+  display: grid;
+  place-items: center;
+  min-height: clamp(420px, 52vw, 680px);
+  background: #f0eee8;
 }
 
 .main-photo-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  max-height: 680px;
+  object-fit: contain;
+  object-position: center;
 }
 
 .photo-badge {
@@ -173,7 +179,7 @@ h1 {
 }
 
 .thumb.active { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(114, 47, 55, 0.16); }
-.thumb img { width: 100%; height: 100%; object-fit: cover; }
+.thumb img { width: 100%; height: 100%; object-fit: contain; background: #f0eee8; }
 
 .buy-panel {
   position: sticky;
@@ -352,7 +358,8 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; }
   .site-header { align-items: start; flex-direction: column; padding-top: 24px; }
   .header-note { text-align: left; }
   .store-shell { padding-inline: 14px; }
-  .promo-banner img { aspect-ratio: 16 / 7; }
+  .promo-banner img { height: clamp(150px, 38vw, 260px); }
+  .main-photo-wrap { min-height: clamp(320px, 88vw, 520px); }
   .swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sizes { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .buy-panel, .detail-panel { padding: 18px; }
