@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mini ecommerce estatico de hoodies con variantes de color, talla y contacto por WhatsApp."
+    />
+    <title>Core Hoodie Store</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow" id="brandName">Drop store</p>
+        <h1 id="productName">Core Hoodie</h1>
+      </div>
+      <p class="header-note">Selecciona color y talla. El pedido se prepara por WhatsApp.</p>
+    </header>
+
+    <main class="store-shell">
+      <section class="banner-section" id="bannerSection" hidden>
+        <a class="promo-banner" id="promoBanner" href="#" aria-label="Ver promocion">
+          <img id="promoBannerImage" alt="" />
+        </a>
+      </section>
+
+      <section class="product-stage" aria-label="Producto principal">
+        <div class="gallery-panel">
+          <div class="main-photo-wrap">
+            <img id="mainPhoto" alt="" />
+            <span class="photo-badge" id="variantStock">Disponible</span>
+          </div>
+          <div class="thumb-row" id="thumbRow" aria-label="Fotografias del color seleccionado"></div>
+        </div>
+
+        <aside class="buy-panel">
+          <p class="reference" id="productReference"></p>
+          <h2 id="productTitle"></h2>
+          <p class="price" id="productPrice"></p>
+          <p class="description" id="productDescription"></p>
+
+          <div class="option-block">
+            <div class="option-heading">
+              <span>Color</span>
+              <strong id="selectedColorLabel"></strong>
+            </div>
+            <div class="swatches" id="colorSwatches"></div>
+          </div>
+
+          <div class="option-block">
+            <div class="option-heading">
+              <span>Talla</span>
+              <strong id="selectedSizeLabel">Selecciona una</strong>
+            </div>
+            <div class="sizes" id="sizeOptions"></div>
+          </div>
+
+          <div class="quantity-row">
+            <span>Cantidad</span>
+            <div class="stepper" aria-label="Cantidad">
+              <button id="decreaseQty" type="button" aria-label="Disminuir cantidad">-</button>
+              <strong id="quantityValue">1</strong>
+              <button id="increaseQty" type="button" aria-label="Aumentar cantidad">+</button>
+            </div>
+          </div>
+
+          <a class="primary-button contact-button" id="contactButton" href="#" target="_blank" rel="noopener noreferrer">
+            Contactar por WhatsApp
+          </a>
+          <p class="helper-text" id="selectionMessage">Elige color y talla para preparar tu mensaje.</p>
+        </aside>
+      </section>
+
+      <section class="details-grid" aria-label="Detalles del producto">
+        <article class="detail-panel">
+          <h3>Detalle</h3>
+          <ul id="detailList"></ul>
+        </article>
+        <article class="detail-panel">
+          <h3>Guia de tallas</h3>
+          <div class="size-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Talla</th>
+                  <th>Pecho</th>
+                  <th>Largo</th>
+                </tr>
+              </thead>
+              <tbody id="sizeGuide"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

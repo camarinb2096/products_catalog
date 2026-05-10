@@ -1,0 +1,144 @@
+{
+  "brand": "Hoodies Catalog",
+  "currency": "COP",
+  "whatsapp": "",
+  "product": {
+    "reference": "CORE-HOODIE-001",
+    "name": "Core Hoodie",
+    "description": "Hoodie unisex de fit relajado, pensado como pieza base para drops de color. Edita esta informacion en products.json desde GitHub cuando quieras.",
+    "details": [
+      "Fit oversized",
+      "Capota doble con cordon plano",
+      "Bolsillo frontal tipo kangaroo",
+      "Puños y cintura acanalados",
+      "Algodon pesado de tacto suave"
+    ],
+    "price": 189000,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "sizeGuide": [
+      {
+        "size": "S",
+        "chest": "54 cm",
+        "length": "66 cm"
+      },
+      {
+        "size": "M",
+        "chest": "57 cm",
+        "length": "69 cm"
+      },
+      {
+        "size": "L",
+        "chest": "60 cm",
+        "length": "72 cm"
+      },
+      {
+        "size": "XL",
+        "chest": "63 cm",
+        "length": "75 cm"
+      }
+    ],
+    "variants": [
+      {
+        "color": "Negro",
+        "slug": "negro",
+        "hex": "#111111",
+        "availableSizes": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "stockLabel": "Disponible",
+        "photos": [
+          "/products/core-hoodie-negro-1.jpg",
+          "/products/core-hoodie-negro-2.jpg"
+        ]
+      },
+      {
+        "color": "Gris",
+        "slug": "gris",
+        "hex": "#8d8b84",
+        "availableSizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "stockLabel": "Ultimas unidades",
+        "photos": [
+          "/products/core-hoodie-gris-1.jpg",
+          "/products/core-hoodie-gris-2.jpg"
+        ]
+      },
+      {
+        "color": "Verde",
+        "slug": "verde",
+        "hex": "#2f4a3d",
+        "availableSizes": [
+          "M",
+          "L",
+          "XL"
+        ],
+        "stockLabel": "Disponible",
+        "photos": [
+          "/products/core-hoodie-verde-1.jpg",
+          "/products/core-hoodie-verde-2.jpg"
+        ]
+      },
+      {
+        "color": "Crema",
+        "slug": "crema",
+        "hex": "#e7dfcc",
+        "availableSizes": [
+          "S",
+          "M",
+          "L"
+        ],
+        "stockLabel": "Disponible",
+        "photos": [
+          "/products/core-hoodie-crema-1.jpg",
+          "/products/core-hoodie-crema-2.jpg"
+        ]
+      },
+      {
+        "color": "Azul",
+        "slug": "azul",
+        "hex": "#2f415d",
+        "availableSizes": [
+          "S",
+          "L",
+          "XL"
+        ],
+        "stockLabel": "Disponible",
+        "photos": [
+          "/products/core-hoodie-azul-1.jpg",
+          "/products/core-hoodie-azul-2.jpg"
+        ]
+      },
+      {
+        "color": "Vino",
+        "slug": "vino",
+        "hex": "#67313a",
+        "availableSizes": [
+          "M",
+          "L"
+        ],
+        "stockLabel": "Limited",
+        "photos": [
+          "/products/core-hoodie-vino-1.jpg",
+          "/products/core-hoodie-vino-2.jpg"
+        ]
+      }
+    ]
+  },
+  "banner": {
+    "enabled": true,
+    "image": "/products/banner-hoodies.jpg",
+    "href": "",
+    "alt": "Banner promocional Core Hoodie"
+  }
+}
