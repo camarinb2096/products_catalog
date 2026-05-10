@@ -2,10 +2,10 @@
   color-scheme: light;
   --bg: #f6f5f1;
   --panel: #ffffff;
-  --ink: #171715;
-  --muted: #6d6a63;
+  --ink: #343434;
+  --muted: #74716b;
   --line: #ddd9cf;
-  --accent: #1f3a34;
+  --accent: #722F37;
   --accent-2: #b7ff5a;
   --danger: #9f2d2d;
   --shadow: 0 20px 70px rgba(24, 24, 20, 0.1);
@@ -42,6 +42,18 @@ button { cursor: pointer; }
 button:disabled { cursor: not-allowed; opacity: 0.42; }
 img { display: block; }
 h1, h2, h3, p { margin-top: 0; }
+h1,
+h2,
+h3,
+.eyebrow,
+.reference,
+.price,
+.option-heading,
+.quantity-row,
+.detail-panel h3,
+th {
+  color: var(--accent);
+}
 
 .site-header {
   display: flex;
@@ -160,7 +172,7 @@ h1 {
   aspect-ratio: 4 / 5;
 }
 
-.thumb.active { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(31, 58, 52, 0.13); }
+.thumb.active { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(114, 47, 55, 0.16); }
 .thumb img { width: 100%; height: 100%; object-fit: cover; }
 
 .buy-panel {
@@ -203,13 +215,13 @@ h1 {
   align-items: center;
   gap: 14px;
   margin-bottom: 10px;
-  color: var(--muted);
+  color: var(--accent);
   font-size: 0.82rem;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-.option-heading strong, .quantity-row strong, .subtotal-row strong { color: var(--ink); }
+.option-heading strong, .quantity-row strong, .subtotal-row strong { color: var(--accent); }
 
 .swatches {
   display: grid;
@@ -241,7 +253,7 @@ h1 {
 
 .swatch.active, .size.active {
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(31, 58, 52, 0.13);
+  box-shadow: 0 0 0 3px rgba(114, 47, 55, 0.16);
 }
 
 .sizes {
