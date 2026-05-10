@@ -273,12 +273,8 @@ function bindEvents() {
     renderQuantity();
   });
 
-  els.contactButton.addEventListener("click", (event) => {
+  els.contactButton.addEventListener("click", () => {
     updateContactLink();
-    if (!state.size) {
-      event.preventDefault();
-      els.selectionMessage.textContent = "Selecciona una talla antes de contactar.";
-    }
   });
 }
 
