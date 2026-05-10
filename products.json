@@ -1,10 +1,10 @@
 {
-  "brand": "Hoodies Catalog",
+  "brand": "Bienvenidos al",
   "currency": "COP",
   "whatsapp": "573045491765",
   "product": {
     "reference": "CORE-HOODIE-001",
-    "name": "Core Hoodie",
+    "name": "Closet del Pelao",
     "description": "Hoodie unisex de fit relajado, pensado como pieza base para drops de color. Edita esta informacion en products.json desde GitHub cuando quieras.",
     "details": [
       "Fit oversized",
