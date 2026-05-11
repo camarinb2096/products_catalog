@@ -96,15 +96,13 @@ h1 {
 }
 
 .banner-section {
-  display: flex;
-  justify-content: center;
   margin-bottom: 18px;
 }
 
 .promo-banner {
   display: block;
-  width: min(100%, 340px);
-  aspect-ratio: 1 / 2;
+  width: 100%;
+  height: clamp(180px, 19vw, 320px);
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f0eee8;
@@ -362,7 +360,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; }
   .site-header { align-items: start; flex-direction: column; padding-top: 24px; }
   .header-note { text-align: left; }
   .store-shell { padding-inline: 14px; }
-  .promo-banner { width: min(100%, 300px); }
+  .promo-banner { height: clamp(140px, 34vw, 220px); }
   .main-photo-wrap { min-height: clamp(320px, 88vw, 520px); }
   .swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sizes { grid-template-columns: repeat(4, minmax(0, 1fr)); }
