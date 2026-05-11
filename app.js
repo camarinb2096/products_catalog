@@ -92,7 +92,7 @@ function setBannerImage(img, src, label) {
 }
 
 async function loadConfig() {
-  const response = await fetch("./products.json", { cache: "no-store" });
+  const response = await fetch("./products.json?v=" + Date.now(), { cache: "no-store" });
   if (!response.ok) throw new Error("No se pudo cargar products.json");
   state.config = await response.json();
   state.variant = state.config.product.variants[0];
@@ -119,7 +119,20 @@ function renderProductBasics() {
   els.sizeGuide.replaceChildren(
     ...product.sizeGuide.map((row) => {
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${row.size}</td><td>${row.chest}</td><td>${row.length}</td>`;
+      const cells = [
+        row.size,
+        row.chestCm || row.chest,
+        row.chestIn,
+        row.waistCm,
+        row.hoodieLength || row.length,
+      ];
+      tr.replaceChildren(
+        ...cells.map((value) => {
+          const td = document.createElement("td");
+          td.textContent = value || "-";
+          return td;
+        })
+      );
       return tr;
     })
   );

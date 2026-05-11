@@ -3,17 +3,17 @@
   "currency": "COP",
   "whatsapp": "573045491765",
   "product": {
-    "reference": "CORE-HOODIE-001",
-    "name": "Rebook REF-001",
-    "description": "Hoodie unisex de fit relajado, pensado como pieza base para drops de color. Edita esta informacion en products.json desde GitHub cuando quieras.",
+    "reference": "REEBOK-FINISHER",
+    "name": "Reebok Finisher",
+    "description": "Hoodie Reebok Finisher disponible en unidades limitadas. Las tallas dependen del color seleccionado y se confirman por WhatsApp.",
     "details": [
-      "Fit oversized",
-      "Capota doble con cordon plano",
-      "Bolsillo frontal tipo kangaroo",
-      "Puños y cintura acanalados",
-      "Algodon pesado de tacto suave"
+      "Referencia Reebok Finisher",
+      "Hoodie unisex",
+      "Capota con cordon",
+      "Bolsillo frontal",
+      "Existencias limitadas por color y talla"
     ],
-    "price": 189000,
+    "price": 170000,
     "sizes": [
       "S",
       "M",
@@ -23,54 +23,92 @@
     "sizeGuide": [
       {
         "size": "S",
-        "chest": "54 cm",
-        "length": "66 cm"
+        "chestCm": "89-95 cm",
+        "chestIn": "35-37 in",
+        "waistCm": "75-81 cm",
+        "hoodieLength": "67-69 cm"
       },
       {
         "size": "M",
-        "chest": "57 cm",
-        "length": "69 cm"
+        "chestCm": "96-104 cm",
+        "chestIn": "38-41 in",
+        "waistCm": "82-89 cm",
+        "hoodieLength": "69-71 cm"
       },
       {
         "size": "L",
-        "chest": "60 cm",
-        "length": "72 cm"
+        "chestCm": "105-112 cm",
+        "chestIn": "42-44 in",
+        "waistCm": "90-99 cm",
+        "hoodieLength": "71-74 cm"
       },
       {
         "size": "XL",
-        "chest": "63 cm",
-        "length": "75 cm"
+        "chestCm": "113-123 cm",
+        "chestIn": "45-48 in",
+        "waistCm": "100-109 cm",
+        "hoodieLength": "74-77 cm"
       }
     ],
     "variants": [
-      {
-        "color": "Negro",
-        "slug": "negro",
-        "hex": "#111111",
-        "availableSizes": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "stockLabel": "Disponible",
-        "photos": [
-          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778377276/WhatsApp_Image_2026-05-01_at_21.49.07_jpcduf.jpg"
-        ]
-      },
       {
         "color": "Gris",
         "slug": "gris",
         "hex": "#8d8b84",
         "availableSizes": [
-          "S",
-          "M",
-          "L"
+          "M"
         ],
-        "stockLabel": "Ultimas unidades",
+        "inventory": [
+          {
+            "size": "M",
+            "quantity": 1
+          }
+        ],
+        "stockLabel": "M - 1 unidad",
         "photos": [
-          "/products/core-hoodie-gris-1.jpg",
-          "/products/core-hoodie-gris-2.jpg"
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515703/Hoodies%20Reebok/Gris/IMG_6365_co3e3p.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515707/Hoodies%20Reebok/Gris/IMG_6376_us8ehp.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515706/Hoodies%20Reebok/Gris/IMG_6372_lyldvi.jpg"
+        ]
+      },
+      {
+        "color": "Vinotinto",
+        "slug": "vinotinto",
+        "hex": "#722f37",
+        "availableSizes": [
+          "M"
+        ],
+        "inventory": [
+          {
+            "size": "M",
+            "quantity": 1
+          }
+        ],
+        "stockLabel": "M - 1 unidad",
+        "photos": [
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515688/Hoodies%20Reebok/Vinotinto/IMG_6315_fsyrho.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515690/Hoodies%20Reebok/Vinotinto/IMG_6321_pbs3ua.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515691/Hoodies%20Reebok/Vinotinto/IMG_6323_qh7llh.jpg"
+        ]
+      },
+      {
+        "color": "Cafe",
+        "slug": "cafe",
+        "hex": "#6f4e37",
+        "availableSizes": [
+          "M"
+        ],
+        "inventory": [
+          {
+            "size": "M",
+            "quantity": 1
+          }
+        ],
+        "stockLabel": "M - 1 unidad",
+        "photos": [
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515684/Hoodies%20Reebok/Cafe/IMG_6289_jyuhny.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515685/Hoodies%20Reebok/Cafe/IMG_6296_ajfl1u.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515686/Hoodies%20Reebok/Cafe/IMG_6301_ehiun6.jpg"
         ]
       },
       {
@@ -78,67 +116,53 @@
         "slug": "verde",
         "hex": "#2f4a3d",
         "availableSizes": [
-          "M",
-          "L",
           "XL"
         ],
-        "stockLabel": "Disponible",
-        "photos": [
-          "/products/core-hoodie-verde-1.jpg",
-          "/products/core-hoodie-verde-2.jpg"
-        ]
-      },
-      {
-        "color": "Crema",
-        "slug": "crema",
-        "hex": "#e7dfcc",
-        "availableSizes": [
-          "S",
-          "M",
-          "L"
+        "inventory": [
+          {
+            "size": "XL",
+            "quantity": 1
+          }
         ],
-        "stockLabel": "Disponible",
+        "stockLabel": "XL - 1 unidad",
         "photos": [
-          "/products/core-hoodie-crema-1.jpg",
-          "/products/core-hoodie-crema-2.jpg"
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515699/Hoodies%20Reebok/Verde/IMG_6352_uzo7oa.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515700/Hoodies%20Reebok/Verde/IMG_6355_nljbgz.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515703/Hoodies%20Reebok/Verde/IMG_6361_uspfg9.jpg"
         ]
       },
       {
-        "color": "Azul",
-        "slug": "azul",
-        "hex": "#2f415d",
-        "availableSizes": [
-          "S",
-          "L",
-          "XL"
-        ],
-        "stockLabel": "Disponible",
-        "photos": [
-          "/products/core-hoodie-azul-1.jpg",
-          "/products/core-hoodie-azul-2.jpg"
-        ]
-      },
-      {
-        "color": "Vino",
-        "slug": "vino",
-        "hex": "#67313a",
+        "color": "Negro",
+        "slug": "negro",
+        "hex": "#111111",
         "availableSizes": [
           "M",
           "L"
         ],
-        "stockLabel": "Limited",
+        "inventory": [
+          {
+            "size": "M",
+            "quantity": 1
+          },
+          {
+            "size": "L",
+            "quantity": 1
+          }
+        ],
+        "stockLabel": "M y L - 1 unidad c/u",
         "photos": [
-          "/products/core-hoodie-vino-1.jpg",
-          "/products/core-hoodie-vino-2.jpg"
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515692/Hoodies%20Reebok/Negro/IMG_6331_m9h0b6.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515697/Hoodies%20Reebok/Negro/IMG_6346_sahi1q.jpg",
+          "https://res.cloudinary.com/dyuxbjpdm/image/upload/v1778515695/Hoodies%20Reebok/Negro/IMG_6337_pfabgf.jpg"
         ]
       }
     ]
   },
   "banner": {
     "enabled": true,
-    "image": "https://res.cloudinary.com/dyuxbjpdm/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1778378802/banner-example_zqpkhl.jpg",
+    "image": "https://res.cloudinary.com/dyuxbjpdm/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1778515728/Hoodies%20Reebok/banner_br1ijc.jpg",
     "href": "",
-    "alt": "Banner promocional Core Hoodie"
+    "alt": "Banner promocional Reebok Finisher"
   },
   "site": {
     "eyebrow": "Bienvenidos al",

@@ -96,11 +96,15 @@ h1 {
 }
 
 .banner-section {
+  display: flex;
+  justify-content: center;
   margin-bottom: 18px;
 }
 
 .promo-banner {
   display: block;
+  width: min(100%, 340px);
+  aspect-ratio: 1 / 2;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #f0eee8;
@@ -109,8 +113,8 @@ h1 {
 
 .promo-banner img {
   width: 100%;
-  height: clamp(180px, 24vw, 360px);
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
   background: #f0eee8;
 }
@@ -358,7 +362,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; }
   .site-header { align-items: start; flex-direction: column; padding-top: 24px; }
   .header-note { text-align: left; }
   .store-shell { padding-inline: 14px; }
-  .promo-banner img { height: clamp(150px, 38vw, 260px); }
+  .promo-banner { width: min(100%, 300px); }
   .main-photo-wrap { min-height: clamp(320px, 88vw, 520px); }
   .swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sizes { grid-template-columns: repeat(4, minmax(0, 1fr)); }
